@@ -73,5 +73,7 @@ h3{
 .profile-info-container{
   position: relative;
   bottom: 100px;
+  align-items: center;
+  justify-content: center;
 }
 @media()
