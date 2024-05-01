@@ -8,10 +8,18 @@ import facebook from "../../Assets/icons8-facebook-96.png";
 import instagram from "../../Assets/icons8-instagram-96.png";
 import linkedin from "../../Assets/icons8-linkedin-96.png";
 import addIcon from "../../Assets/icons8-add-64.png";
-import { useContact } from '../ContactContext';
 
 const Landing = () => {
-  const contactInfo = useContact; // Access contact information from context
+  const contactInfo = {
+    name: 'Michelle Cedeno',
+    email: 'luchastrategies@gmail.com',
+    phone: '7373147538',
+    title: 'Digital Deputy Director',
+    role: 'Deputy Director',
+    organization: 'Biden Harris for President',
+    rev: '2024-05-01T17:08:22.834Z',
+  };
+
 
   const generateVCF = () => {
     const vcfContent = `BEGIN:VCARD
@@ -19,6 +27,7 @@ VERSION:3.0
 FN;CHARSET=UTF-8:${contactInfo.name}
 N;CHARSET=UTF-8:${contactInfo.name};;;;
 EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:${contactInfo.email}
+TEL;TYPE=HOME,VOICE:${contactInfo.phone}
 TITLE;CHARSET=UTF-8:${contactInfo.title}
 ROLE;CHARSET=UTF-8:${contactInfo.role}
 ORG;CHARSET=UTF-8:${contactInfo.organization}
@@ -43,7 +52,7 @@ END:VCARD`;
 
   return (
     <div className='landing'>
-      <h1>Michelle Cedeno</h1>
+      <h1>{contactInfo.name}</h1>
       <h3>Digital Deputy Director</h3>
       <span className="location"><img src={location} height={20}/>Las Vegas | Biden for President</span>
 
