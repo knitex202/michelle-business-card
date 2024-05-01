@@ -5,7 +5,7 @@ import qrcode from "../../Assets/frame.png"
 function QRcode() {
   return (
     <>
-    <img src={qrcode} alt="" />
+    <img src={qrcode} height={300} alt="" />
     </>
   )
 }
