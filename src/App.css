@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-weight: 800;
+  color: #393B3F;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3{
+  color: #3870DE;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-container {
+  width: 430px;
+  height: 930px;
+  background: #113e88;
+  overflow: hidden;
+}
+.upper-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+  padding-top: 30px;
+}
+.logo-container p{
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+.content-container{
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
+  height: 100%;
+  border-radius: 30px 30px 0 0;
+  align-items: center;
+  background: white;
+}
+.profile-container{
+  display: flex;
+  position:relative;
+  bottom: 120px;
+  max-width: 200px;
+  width: 100%;
+  max-height: 200px;
+  height: 100%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: white;
+  border-radius: 50%;
 }
-
-.App-link {
-  color: #61dafb;
+.profile-image-container{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 95%;
+  overflow: hidden;
+  border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-image-container img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.location{
+  display: flex;
+  color: gray;
+}
+.profile-info-container{
+  position: relative;
+  bottom: 100px;
 }
