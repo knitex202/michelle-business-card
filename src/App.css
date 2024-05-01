@@ -26,6 +26,9 @@ h3{
   color: white;
   font-weight: 600;
 }
+.qr-button{
+  cursor: pointer;
+}
 .content-container{
   display: flex;
   flex-direction: column;

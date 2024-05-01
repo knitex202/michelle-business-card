@@ -60,4 +60,11 @@ h2{
     background: #1e1f20;
     color: white;
     font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.add-contact-container:hover{
+    background: #49494b;
+    
 }
