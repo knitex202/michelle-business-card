@@ -66,7 +66,6 @@ END:VCARD`;
         <img src={location} height={20} />
         Las Vegas | Biden for President
       </span>
-      </div>
       {/* <h2>Manage media content and mobilize a team of 50+</h2> */}
       <div className="website-link-container">
         <img src={world} height={40} alt="" />
@@ -91,6 +90,7 @@ END:VCARD`;
           <img src={addIcon} height={40} alt="" />
           <p>ADD to CONTACT</p>
         </div>
+      </div>
       </div>
     </div>
   );
