@@ -8,7 +8,7 @@
 .article-container{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
     align-items: center;
 }
 h2{
@@ -34,7 +34,7 @@ h2{
 }
 .website-link-container img{
     position: relative;
-    right: 70px;
+    right: 60px;
 }
 .socials-connect-container{
     display: flex;

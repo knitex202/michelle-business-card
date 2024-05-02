@@ -86,12 +86,12 @@ END:VCARD`;
             <img className="socials" src={linkedin} alt="" />
           </a>
         </div>
-        <div className="add-contact-container" onClick={handleAddToContacts}>
+      </div>
+      </div>
+      <div className="add-contact-container" onClick={handleAddToContacts}>
           <img src={addIcon} height={40} alt="" />
           <p>ADD to CONTACT</p>
         </div>
-      </div>
-      </div>
     </div>
   );
 };
