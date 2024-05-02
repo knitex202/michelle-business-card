@@ -59,12 +59,14 @@ END:VCARD`;
 
   return (
     <div className="landing">
+      <div className="article-container" >
       <h1>{contactInfo.name}</h1>
       <h3>Digital Deputy Director</h3>
       <span className="location">
         <img src={location} height={20} />
         Las Vegas | Biden for President
       </span>
+      </div>
       {/* <h2>Manage media content and mobilize a team of 50+</h2> */}
       <div className="website-link-container">
         <img src={world} height={40} alt="" />

@@ -5,6 +5,12 @@
     justify-content: center;
     text-align: center;
 }
+.article-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+}
 h2{
     width: 270px;
     font-size: 20px;
